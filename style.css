@@ -1,0 +1,229 @@
+html{
+  font-size: 62.5%;
+  font-family: "Poppins",sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.login {
+  width: 100%;
+  background-color: #fff;
+  max-width: 768px;
+  padding: 80px 138px;
+  justify-content: center;
+  align-content: center;
+}
+
+.login-heading {
+  color: rgb(57,138,252);
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.login-sub-heading {
+  color: rgb(196,218,248);
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+.login-label {
+  display: block;
+  color: rgb(220,222,223);
+}
+
+.login-form .login-label {
+  position: relative;
+}
+
+.login-label i {
+  position: absolute;
+  font-size: 20px;
+  /* width: 100%; */
+  /* height: 100%; */
+  float: left;
+  margin-top: 62px;
+  left: 22px;
+  height: 100%;
+}
+
+.login-label i::after {
+  content: "";
+  height: 55%;
+  border: 1px solid #bfc4c7;
+  position: absolute;
+  transform: translateY(-50%);
+  margin: 11px 21px;
+}
+
+.login-label .open-eye i::after {
+  content: "";
+  border: none;
+  font-size: 20px;
+  color: rgb(220,222,223);
+}
+
+.open-eye {
+  position: absolute;
+}
+
+.open-eye i.icon{
+  position: absolute;
+  left: 333px;
+  top: -103px;
+}
+
+.open-eye i.icon:hover{
+  color: #000;
+  cursor: pointer;
+  transition: all .1s;
+}
+
+.login-label .login-input {
+  padding: 18px 92px;
+  width: 77%;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #e4e4e4;
+  font-family: "Poppins",sans-serif;
+  font-size: 20px;
+  margin-top: 42px;
+}
+
+.forgot {
+  font-size: 20px;
+  font-family: "Poppins",sans-serif;
+  color: rgb(220,222,223);
+}
+
+.forgot span {
+  padding: 30px 0;
+}
+
+.forgot span:hover {
+  color: #000;
+  cursor: pointer;
+  transition: all .1s;
+}
+
+
+.forgot .login-button {
+  margin: 24px;
+  color: #ffffff;
+  background-color: rgb(0, 102, 255);
+  padding: 24px 47px;
+  border: #428fff;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 #428fff;
+  outline: none;
+}
+
+.forgot span {
+  font-size: 20px;
+}
+
+.forgot .login-button:hover {
+  box-shadow: 0 2px 8px 2px #2f81fc;
+  color: rgb(32,32,32)
+}
+
+.login-or {
+  text-align: center;
+  font-size: 20px;
+  color: #bfc4c7;
+  margin: 38px auto;
+  position: relative;
+}
+
+.login-or span {
+  margin-right: 100px;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.login-or::after {
+  content: "";
+  width: 77%;
+  border: 1px dashed #bfc4c7;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.link {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(220,222,223);
+}
+
+.tw i {
+  background-color: #1E90FF;
+  padding: 19px 19px 20px;
+  font-size: 25px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  color: #fff;
+}
+
+.fb {
+  background-color: #0066FF;
+  padding: 18px 40px;
+  font-size: 25px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: -6px;
+}
+
+.link .tw i:hover{
+  box-shadow: 0 2px 8px 0 #428fff;
+  color: #000;
+  transition: all .1s;
+}
+
+.link .fb:hover{
+  box-shadow: 0 2px 8px 0 #428fff;
+  color: #000;
+  transition: all .1s;
+}
+
+.link span {
+  font-size: 20px;
+}
+
+.street {
+  padding: 70px 0;
+}
+
+.street a {
+  color: rgb(184,212,253);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.street a:hover{
+  color: #0099FF;
+  transition: all .1s;
+}
+
+img{
+  width: 100%;
+  overflow: hidden;
+}
+
